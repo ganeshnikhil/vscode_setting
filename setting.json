@@ -1,0 +1,133 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.3gpp": "default",
+        "*.xz": "default",
+        "*.out": "default",
+        "*.pyc": "default",
+        "*.jpg?sa=X&ved=2ahUKEwiZ0sL47I2AAxUTSWwGHR7XBIoQ_B16BAgCEAI": "default",
+        "*.whl": "default",
+        "*.heic": "default"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "files.autoSave": "afterDelay",
+    "notebook.output.textLineLimit": 60,
+    "editor.tabSize": 3,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.fontFamily": "Menlo",
+    // terminal font size 
+    "terminal.integrated.fontSize": 13,
+    //Default High Contrast
+    //zoom levelof window
+    "window.zoomLevel":2,
+    "tabnine.experimentalAutoImports": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.foldingHighlight":true,
+
+    "workbench.colorCustomizations": {
+        "terminal.background": "#070707",
+        "terminal.selectionBackground": "#E07c24",
+        "terminal.selectionForeground": "#000000",
+        "tab.activeBorder": "#FFFFFF",
+        "tab.activeBackground": "#000000",
+        "tab.activeBorderTop": "#FFFFFF",
+        "tab.activeForeground":"#FFFFFF",
+        "terminal.foreground": "#00FF00",
+
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#1f8e22"
+
+    },
+    "todohighlight.keywords": [{
+       "text":"#",
+       "backgroundColor": "#000000",
+       "color":"#FF0000"
+
+    },
+    {"text":"[*]",
+    "backgroundColor": "#000000",
+    "color":"#1f8e22"
+
+    },
+{
+    //highlits the given text whenever we write it in vscode files
+    "text":"ganesh nikhil",
+    "backgroundColor": "#1f8e22",
+    "color":"#FF0000"
+}]
+,
+
+"todohighlight.defaultStyle":{
+"borderRadius":"5px"
+},
+"gocodeo.authToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTMzMzI1MjIsImlhdCI6MTY4MjIyODUyMiwic3ViIjoiNjQ0NGM1MmEyMGIxZjU3NGY0NDljNDBmIiwibmFtZSI6ImN5dGhvbiBib3kifQ.G7RZ1_IRjlIN51XHZ-ExcYvtBntdhV8HgxNPvYgOLJE",
+"gocodeo.pythonTestFramework": "unittest",
+"gocodeo.jsTestFramework": "unittest",
+"liveServer.settings.donotVerifyTags": true,
+"editor.unicodeHighlight.invisibleCharacters": false,
+"editor.unicodeHighlight.ambiguousCharacters": false,
+"code-runner.executorMap": {
+    
+
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "zig": "zig run",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runghc",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "sml": "cd $dir && sml $fileName"
+}
